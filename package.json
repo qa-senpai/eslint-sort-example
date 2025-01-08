@@ -1,0 +1,17 @@
+{
+  "name": "eslint-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "npx eslint --fix --config eslint.config.mjs  ./SomeClass.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^9.17.0",
+    "eslint-plugin-sort-class-members": "^1.21.0",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.19.1"
+  }
+}
